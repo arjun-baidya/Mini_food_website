@@ -45,6 +45,7 @@ app.get("/user", (req, res) => {
   res.render("user", { title: "Profile", userProfile: { nickname: "Arjun Baidya" } });
 });
 
+
 /**
  * Server Activation
  */
